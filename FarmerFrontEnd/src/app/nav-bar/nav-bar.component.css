@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .topnav button {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #39793b;
+    color: white;
+  }
+
+
+  .topnav div.container{
+      float: right;
+  }
+
+  .topnav button.logout{
+    float: right;
+    color: #e5eee7;
+    background-color: rgb(110, 9, 9) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    border: 5px;
+    margin-right: 3px;
+    margin-top: 1px;
+    border-radius: 6px;
+  }
+
+  .topnav p.user {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+  .admintopnav {
+    overflow: hidden;
+    background-color:  #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .admintopnav button {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .admintopnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .admintopnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .admintopnav a.active {
+    background-color: #2f0f4d;
+    color: white;
+  }
+
+
+  .admintopnav div.container{
+      float: right;
+  }
+
+  .admintopnav button.logout{
+    float: right;
+    color: #e5eee7;
+    background-color: rgb(110, 9, 9) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    border: 5px;
+    margin-right: 3px;
+    margin-top: 1px;
+    border-radius: 6px;
+  }
+
+  .admintopnav p.user {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }

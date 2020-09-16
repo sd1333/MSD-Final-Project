@@ -1,0 +1,159 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/superuser/requestlog
+
+
+
+
+###
+GET http://localhost:3000/farmer
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0ODQzMDI0LCJleHAiOjE1OTU3MDcwMjR9.XNmav3vd1HLtvstBkJ2SQvkG0js_ea66ecovuQ1B30Q
+
+###
+GET http://localhost:3000/farmer/5f07a1c3e6433e5644d1fac7
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzI5MzM4LCJleHAiOjE1OTUxOTMzMzh9.LgX8tDel8SwjQjddXDwfhSMopsqKcR8WaUr-jBNo7gM
+
+###
+POST http://localhost:3000/farmer
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0NzQ2MzA1LCJleHAiOjE1OTU2MTAzMDV9.Go6pK2Mq6g_BDS6xXLL8bN5udWRPMqymLOkNuZ4KemA
+
+{
+     
+    
+            "productName": "Cucumbers",
+            "price": 2,
+            "qty": 40
+    
+}
+
+###
+PATCH http://localhost:3000/farmer/5f07a1c3e6433e5644d1fac7
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzI5MzM4LCJleHAiOjE1OTUxOTMzMzh9.LgX8tDel8SwjQjddXDwfhSMopsqKcR8WaUr-jBNo7gM
+
+{
+    "_id": "5f07a1c3e6433e5644d1fac7",
+    "productName": "GRADE AAAAAAAAAA butter",
+    "price": 1900,
+    "qty": 2
+}
+
+
+###
+DELETE http://localhost:3000/farmer/5f07a1c3e6433e5644d1fac7
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzI5MzM4LCJleHAiOjE1OTUxOTMzMzh9.LgX8tDel8SwjQjddXDwfhSMopsqKcR8WaUr-jBNo7gM
+
+
+
+
+###
+GET http://localhost:3000/farmer/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzQ3NDYxLCJleHAiOjE1OTUyMTE0NjF9.ipCj3GXwHDJQvAjq436_K4RRIFtSbXa2znTeq1-3ALI
+
+###
+PATCH http://localhost:3000/farmer/orderstatus/5f07dab36fb51b5680f469c5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzUyMzM4LCJleHAiOjE1OTUyMTYzMzh9.dggC0RyOsSZ0TALM-SyYvQZdHc1mRz0EpqR8Tlmoqo4
+
+{
+    "status": "ready"
+}
+
+###
+GET http://localhost:3000/farmer/orders/bystatus/pending
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmYXJtZXIiOnsicm9sZSI6ImZhcm1lciIsInJhdGluZyI6MCwiX2lkIjoiNWYwNzdlY2M0NzVmOTU2Y2FjMjdjM2I1IiwiZmlyc3ROYW1lIjoiQWxiZXJ0IiwibGFzdE5hbWUiOiJEaWF6IiwiZW1haWwiOiJhQGEuY29tIiwiX192IjowfSwiaWF0IjoxNTk0MzUyMzM4LCJleHAiOjE1OTUyMTYzMzh9.dggC0RyOsSZ0TALM-SyYvQZdHc1mRz0EpqR8Tlmoqo4
+
+
+
+
+### 
+POST http://localhost:3000/customer/createorder
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lciI6eyJfaWQiOiI1ZjEwZDI2NDgyMzZhMmI5NjBjMzczY2MiLCJmaXJzdE5hbWUiOiJWaXZhbiIsImxhc3ROYW1lIjoiU21pdGgiLCJlbWFpbCI6ImNoZWZ2c21pdGgxMDAwQGdtYWlsLmNvbSIsImNhcnQiOltdLCJfX3YiOjB9LCJpYXQiOjE1OTQ5Mzc5NjksImV4cCI6MTU5NTgwMTk2OX0.8bDCFeV9aZIm0MpC5615MA9ltzN0to-OYyCl1BFum4A
+
+
+
+{
+    "farmer": {
+        "_id": "5f10ce7d1fae109948beabd0",
+        "firstName": "Gilbert",
+        "lastName": "Perez",
+        "email": "gperezfarming@gmail.com",
+        "rating": 0
+    },
+    "products" : [
+       {
+           "_id": "5f10d123ada13685f830cfdb", 
+           "productName": "Onion",
+           "price": 5,
+           "qty": 4
+       },
+        {
+           "_id": "5f10d1f9ada13685f830cfdc", 
+           "productName": "Tomato",
+           "price": 5,
+           "qty": 3
+       }
+    ]
+}
+
+###
+
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/farmersignup
+Content-Type: application/json
+
+{
+    "firstName": "Clark",
+    "lastName": "Kent",
+    "email": "ck@super.com",
+    "password": "456789"
+}
+
+###
+POST http://localhost:3000/farmersignin
+Content-Type: application/json
+
+{
+    "email": "a@a.com",
+    "password": "123456"
+}
+
+
+###
+POST http://localhost:3000/customersignup
+Content-Type: application/json
+
+{
+    "firstName": "Vivan",
+    "lastName": "Smith",
+    "email": "chefvsmith1000@gmail.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/customersignin
+Content-Type: application/json
+
+{
+    "email": "lelu@a.com",
+    "password": "horse"
+}
+
+
